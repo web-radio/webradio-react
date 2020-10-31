@@ -1,7 +1,5 @@
 import React from 'react'
-import Header from "./Header";
-import Subheader from "./Subheader";
-import Search from "./Search";
+import Topbar from "./Topbar";
 import ResponseItem from "./ResponseItem";
 
 class WebRadio extends React.Component {
@@ -30,9 +28,7 @@ class WebRadio extends React.Component {
 
         return (
             <div>
-                <Header/>
-                <Subheader/>
-                <Search getInputValue={getInputValue}/>
+                <Topbar getInputValue={getInputValue}/>
                 <ResponseItem listItems={this.state.listItems}/>
             </div>
         )

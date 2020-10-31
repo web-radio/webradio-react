@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Search = (props) => (
-  <div>
-    <input id="input" type="text" />
-    <button onClick={props.getInputValue}>Wyszukaj!</button>
+  <div className="searcher">
+    <input id="input" type="text" placeholder="RMF FM"/>
+    <button onClick={props.getInputValue}><i className="fas fa-search"></i></button>
   </div>
 );
 

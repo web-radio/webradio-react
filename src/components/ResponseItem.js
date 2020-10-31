@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ResponseItem = (props) => (
-  <div>
+  <div className="ResponseGrid">
     {props.listItems}
   </div>
 );
